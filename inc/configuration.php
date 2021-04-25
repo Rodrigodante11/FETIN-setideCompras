@@ -10,7 +10,7 @@ class Sql {
         
         /*mysqli_set_charset($this->conn,"utf-8");*/
 
-		return $this->conn = mysqli_connect("127.0.0.1", "root", "", "mercado_digital");
+		return $this->conn = mysqli_connect("127.0.0.1", "root", "123456", "mercado_digital");
 		
 
 	}
